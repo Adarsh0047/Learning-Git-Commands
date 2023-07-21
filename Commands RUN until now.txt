@@ -1,0 +1,13 @@
+Commands RUN until now:
+
+git init 
+- Initialize a repo
+
+git remote add origin https://github.com/Adarsh0047/Learning-Git-Commands.git 
+- Connect the repo from the web to my local
+
+git pull https://github.com/Adarsh0047/Learning-Git-Commands.git
+- Pull from a repo
+
+git checkout -b develop
+- Create and switch to a new branch
