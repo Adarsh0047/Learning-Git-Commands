@@ -11,3 +11,18 @@ git pull https://github.com/Adarsh0047/Learning-Git-Commands.git
 
 git checkout -b develop
 - Create and switch to a new branch
+
+git status
+- Check status of the current files
+
+git add "Commands RUN until now.txt"
+- Stage a file to be commited
+
+git commit -m "Commit .txt file"
+- Commit a file before pushing it
+
+git branch -M develop
+- If we are not on develop branch switch to it
+
+git push -uf origin develop
+- Push to the remote repo
