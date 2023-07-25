@@ -1,0 +1,5 @@
+git diff
+
+git log
+
+git diff head
