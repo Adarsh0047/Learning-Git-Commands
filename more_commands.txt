@@ -1,7 +1,31 @@
+Some more commands that will be useful to know:
+
 git diff
+- This is used to see what changes are made to the code
+
+git diff --staged
+- This is used to see the changes made in the staging area
+
+git diff HEAD
+- This is used to display the difference between the current state of your working directory and the latest commit, which is referenced by the HEAD pointer
 
 git log
-
-git diff head
+- Used to see the log (all actions performed in a git repository)
 
 git revert [commit_id]
+- Used to revert back changes using a commit id
+
+git merge main develop
+- Merge the develop branch with the main branch by using fast forward
+
+git branch -d develop
+- Soft delete a branch
+
+git branch -D develop
+- Force (hard) delete a branch 
+
+git push origin develop
+- Push changes to a branch
+
+git push origin -d develop
+- Push a changes of branch deletion
